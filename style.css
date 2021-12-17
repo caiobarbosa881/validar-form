@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    height: 600px;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+fieldset {
+    position: relative;
+    height: 600px;
+    border-radius: 20px;
+    border: none;
+}
+html{
+    background-image: url("images/blue-background.jpg");
+}
+#form-email{
+    margin-top: 120px;
+    margin-left: 25px;
+    margin-bottom: 22px;
+}
+#form-password{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(202, 201, 201);
+}
+input::placeholder{
+    text-align: center;
+}
+#cadastro-title{
+    margin-top: 100px;
+    text-align: center;
+}
+#cadastro-button{
+    margin-top: 40px;
+    margin-left: 41.5%;
+}
