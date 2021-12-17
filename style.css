@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+@font-face{
+    font-family: "Trade-Font";
+    src: url("fonts/Trade-Gothic-Bold-Font.otf")
+}
 .container{
     border-radius: 20px;
     background-color: white;
@@ -23,7 +27,7 @@ html{
     background-image: url("images/blue-background.jpg");
 }
 #form-email{
-    margin-top: 120px;
+    margin-top: 70px;
     margin-left: 25px;
     margin-bottom: 22px;
 }
@@ -41,10 +45,91 @@ input::placeholder{
     text-align: center;
 }
 #cadastro-title{
+    color: rgb(47, 193, 241);
+    font-size: 40px;
+    font-family: "Trade-Font";
     margin-top: 100px;
     text-align: center;
 }
+#cadastro-subtitle{
+    color: rgb(47, 193, 241);
+    font-size: 22px;
+    font-family: "Trade-Font";
+    margin-top: 20px;
+    text-align: center;
+}
 #cadastro-button{
+    background-color: rgb(47, 193, 241);
+    height: 32px;
+    width: 220px;
     margin-top: 40px;
-    margin-left: 41.5%;
+    margin-left: 19%;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+
+@font-face {
+    font-family: "Trade-Font";
+    src: url("fonts/Trade-Gothic-Bold-Font.otf")
+}
+.container-login{
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    height: 600px;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.fieldset-login {
+    position: relative;
+    height: 600px;
+    border-radius: 20px;
+    border: none;
+}
+#form-email-login{
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-bottom: 22px;
+}
+#form-password-login{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.input-login{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(202, 201, 201);
+}
+.input-login:placeholder{
+    text-align: center;
+}
+#cadastro-title-login{
+    color: rgb(47, 193, 241);
+    font-size: 40px;
+    font-family: "Trade-Font";
+    margin-top: 100px;
+    text-align: center;
+}
+#cadastro-subtitle-login{
+    color: rgb(47, 193, 241);
+    font-size: 22px;
+    font-family: "Trade-Font";
+    margin-top: 20px;
+    text-align: center;
+}
+#cadastro-button-login{
+    background-color: rgb(47, 193, 241);
+    height: 32px;
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 19%;
+    border-radius: 10px;
+    color: white;
 }
